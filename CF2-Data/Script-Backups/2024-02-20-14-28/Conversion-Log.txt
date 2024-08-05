@@ -1,0 +1,170 @@
+Converting script [1 / 13]	[\Invector-3rdPersonController\ItemManager\Scripts\vJoystickMouseInput.cs]
+	Fragments : 8
+		[ 0] : Line:   20	InputMethod   GetAxis             	(horizontal)
+		[ 1] : Line:   27	InputMethod   GetAxis             	(vertical)
+		[ 2] : Line:   71	Other mod.	[Cursor.visible]
+		[ 3] : Line:   73	Other mod.	[Cursor.visible]
+		[ 4] : Line:   87	Other mod.	[Cursor.visible]
+		[ 5] : Line:  109	InputMethod   GetButton           	(submitButton)
+		[ 6] : Line:  122	InputMethod   GetButtonUp         	(submitButton)
+		[ 7] : Line:  135	InputMethod   GetButtonDown       	(submitButton)
+
+Converting script [2 / 13]	[\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vGameController.cs]
+	Fragments : 3
+		[ 0] : Line:   69	Other mod.	[Cursor.visible]
+		[ 1] : Line:   80	Other mod.	[Cursor.lockState]
+		[ 2] : Line:   84	Other mod.	[Cursor.lockState]
+
+Converting script [3 / 13]	[\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vInput.cs]
+	Fragments : 50
+		[ 0] : Line:  119	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:  140	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:  140	InputMethod   GetAxis             	("Mouse Y")
+		[ 3] : Line:  150	InputMethod   GetKey              	(KeyCode.Joystick1Button0)
+		[ 4] : Line:  151	InputMethod   GetKey              	(KeyCode.Joystick1Button1)
+		[ 5] : Line:  152	InputMethod   GetKey              	(KeyCode.Joystick1Button2)
+		[ 6] : Line:  153	InputMethod   GetKey              	(KeyCode.Joystick1Button3)
+		[ 7] : Line:  154	InputMethod   GetKey              	(KeyCode.Joystick1Button4)
+		[ 8] : Line:  155	InputMethod   GetKey              	(KeyCode.Joystick1Button5)
+		[ 9] : Line:  156	InputMethod   GetKey              	(KeyCode.Joystick1Button6)
+		[10] : Line:  157	InputMethod   GetKey              	(KeyCode.Joystick1Button7)
+		[11] : Line:  158	InputMethod   GetKey              	(KeyCode.Joystick1Button8)
+		[12] : Line:  159	InputMethod   GetKey              	(KeyCode.Joystick1Button9)
+		[13] : Line:  160	InputMethod   GetKey              	(KeyCode.Joystick1Button10)
+		[14] : Line:  161	InputMethod   GetKey              	(KeyCode.Joystick1Button11)
+		[15] : Line:  162	InputMethod   GetKey              	(KeyCode.Joystick1Button12)
+		[16] : Line:  163	InputMethod   GetKey              	(KeyCode.Joystick1Button13)
+		[17] : Line:  164	InputMethod   GetKey              	(KeyCode.Joystick1Button14)
+		[18] : Line:  165	InputMethod   GetKey              	(KeyCode.Joystick1Button15)
+		[19] : Line:  166	InputMethod   GetKey              	(KeyCode.Joystick1Button16)
+		[20] : Line:  167	InputMethod   GetKey              	(KeyCode.Joystick1Button17)
+		[21] : Line:  168	InputMethod   GetKey              	(KeyCode.Joystick1Button18)
+		[22] : Line:  169	InputMethod   GetKey              	(KeyCode.Joystick1Button19)
+		[23] : Line:  175	InputMethod   GetAxis             	("LeftAnalogHorizontal")
+		[24] : Line:  176	InputMethod   GetAxis             	("LeftAnalogVertical")
+		[25] : Line:  177	InputMethod   GetAxis             	("RightAnalogHorizontal")
+		[26] : Line:  178	InputMethod   GetAxis             	("RightAnalogVertical")
+		[27] : Line:  179	InputMethod   GetAxis             	("LT")
+		[28] : Line:  180	InputMethod   GetAxis             	("RT")
+		[29] : Line:  181	InputMethod   GetAxis             	("D-Pad Horizontal")
+		[30] : Line:  182	InputMethod   GetAxis             	("D-Pad Vertical")
+		[31] : Line:  391	InputMethod   GetButton           	(this.buttonName)
+		[32] : Line:  400	InputMethod   GetKey              	(key)
+		[33] : Line:  405	InputMethod   GetButton           	(this.buttonName)
+		[34] : Line:  412	InputMethod   GetButton           	(this.buttonName)
+		[35] : Line:  430	InputMethod   GetButtonDown       	(this.buttonName)
+		[36] : Line:  439	InputMethod   GetKeyDown          	(key)
+		[37] : Line:  444	InputMethod   GetButtonDown       	(this.buttonName)
+		[38] : Line:  451	InputMethod   GetButtonDown       	(this.buttonName)
+		[39] : Line:  470	InputMethod   GetButtonUp         	(this.buttonName)
+		[40] : Line:  479	InputMethod   GetKeyUp            	(key)
+		[41] : Line:  484	InputMethod   GetButtonUp         	(this.buttonName)
+		[42] : Line:  491	InputMethod   GetButtonUp         	(this.buttonName)
+		[43] : Line:  509	InputMethod   GetAxis             	(this.buttonName)
+		[44] : Line:  515	InputMethod   GetAxis             	(this.buttonName)
+		[45] : Line:  520	InputMethod   GetAxis             	(this.buttonName)
+		[46] : Line:  537	InputMethod   GetAxisRaw          	(this.buttonName)
+		[47] : Line:  543	InputMethod   GetAxisRaw          	(this.buttonName)
+		[48] : Line:  548	InputMethod   GetAxisRaw          	(this.buttonName)
+		[49] : Line:  781	InputMethod   GetButton           	(buttonName)
+
+Converting script [4 / 13]	[\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonInput.cs]
+	Fragments : 4
+		[ 0] : Line:  295	Other mod.	[Cursor.visible]
+		[ 1] : Line:  306	Other mod.	[Cursor.lockState]
+		[ 2] : Line:  310	Other mod.	[Cursor.lockState]
+		[ 3] : Line:  448	InputMethod   GetKeyDown          	(toggleWalk)
+
+Converting script [5 / 13]	[\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vDebugUtils.cs]
+	Fragments : 2
+		[ 0] : Line:   42	InputMethod   GetKeyDown          	(timeScaleDown)
+		[ 1] : Line:   50	InputMethod   GetKeyDown          	(timeScaleUp)
+
+Converting script [6 / 13]	[\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts\vSimpleMeleeAI_Companion.cs]
+	Fragments : 4
+		[ 0] : Line:   38	InputMethod   GetKeyDown          	(KeyCode.Alpha1)
+		[ 1] : Line:   43	InputMethod   GetKeyDown          	(KeyCode.Alpha2)
+		[ 2] : Line:   48	InputMethod   GetKeyDown          	(KeyCode.Alpha3)
+		[ 3] : Line:   52	InputMethod   GetKeyDown          	(KeyCode.Alpha4)
+
+Converting script [7 / 13]	[\Invector-3rdPersonController\Shooter\Scripts\Generic\vControlAimCanvas.cs]
+	Fragments : 2
+		[ 0] : Line:  131	InputMethod   GetAxis             	("Mouse X")
+		[ 1] : Line:  131	InputMethod   GetAxis             	("Mouse Y")
+
+Converting script [8 / 13]	[\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\InvectorJoystick.cs]
+	Fragments : 8
+		[ 0] : Line:   61	InputMethod   AxisExists          	(horizontalAxisName)
+		[ 1] : Line:   63	InputMethod   VirtualAxisReference	(horizontalAxisName)
+		[ 2] : Line:   67	InputMethod   VirtualAxis         	(horizontalAxisName)
+		[ 3] : Line:   68	InputMethod   RegisterVirtualAxis 	(m_HorizontalVirtualAxis)
+		[ 4] : Line:   75	InputMethod   AxisExists          	(verticalAxisName)
+		[ 5] : Line:   77	InputMethod   VirtualAxisReference	(verticalAxisName)
+		[ 6] : Line:   81	InputMethod   VirtualAxis         	(verticalAxisName)
+		[ 7] : Line:   82	InputMethod   RegisterVirtualAxis 	(m_VerticalVirtualAxis)
+
+Converting script [9 / 13]	[\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\MoveCamera.cs]
+	Fragments : 13
+		[ 0] : Line:   45	InputMethod   AxisExists          	(cameraAxisX)
+		[ 1] : Line:   47	InputMethod   VirtualAxisReference	(cameraAxisX)
+		[ 2] : Line:   51	InputMethod   VirtualAxis         	(cameraAxisX)
+		[ 3] : Line:   52	InputMethod   RegisterVirtualAxis 	(m_CameraX_VirtualAxis)
+		[ 4] : Line:   54	InputMethod   AxisExists          	(cameraAxisY)
+		[ 5] : Line:   56	InputMethod   VirtualAxisReference	(cameraAxisY)
+		[ 6] : Line:   60	InputMethod   VirtualAxis         	(cameraAxisY)
+		[ 7] : Line:   61	InputMethod   RegisterVirtualAxis 	(m_CameraY_VirtualAxis)
+		[ 8] : Line:   75	InputProperty touches             
+		[ 9] : Line:   77	InputProperty touches             
+		[10] : Line:   90	InputProperty touches             
+		[11] : Line:   95	InputProperty mousePosition       
+		[12] : Line:  106	InputProperty mousePosition       
+
+Converting script [10 / 13]	[\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\vButtonOnOFF.cs]
+	Fragments : 3
+		[ 0] : Line:   15	InputMethod   SetButtonDown       	(Name)
+		[ 1] : Line:   21	InputMethod   SetButtonUp         	(Name)
+		[ 2] : Line:   27	InputMethod   SetButtonUp         	(Name)
+
+Converting script [11 / 13]	[\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vMousePositionHandler.cs]
+	Fragments : 7
+		[ 0] : Line:   52	InputProperty mousePosition       
+		[ 1] : Line:   54	InputMethod   GetAxis             	("RightAnalogHorizontal")
+		[ 2] : Line:   56	InputMethod   GetAxis             	("RightAnalogVertical")
+		[ 3] : Line:   67	InputMethod   GetAxis             	("RightAnalogHorizontal")
+		[ 4] : Line:   69	InputMethod   GetAxis             	("RightAnalogVertical")
+		[ 5] : Line:   77	InputMethod   GetTouch            	(0)
+		[ 6] : Line:   85	InputProperty mousePosition       
+
+Converting script [12 / 13]	[\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\LerpOnScroll.cs]
+	Fragments : 2
+		[ 0] : Line:   22	InputProperty mouseScrollDelta    
+		[ 1] : Line:   24	InputProperty mouseScrollDelta    
+
+Converting script [13 / 13]	[\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\RotateOnDrag.cs]
+	Fragments : 7
+		[ 0] : Line:   20	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   22	InputProperty mousePosition       
+		[ 2] : Line:   22	InputProperty mousePosition       
+		[ 3] : Line:   25	InputMethod   GetMouseButtonUp    	(0)
+		[ 4] : Line:   30	InputMethod   GetMouseButton      	(0)
+		[ 5] : Line:   32	InputProperty mousePosition       
+		[ 6] : Line:   32	InputProperty mousePosition       
+
+
+13 scripts modified!
+Overwriting actual scripts...
+	[0 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\ItemManager\Scripts\vJoystickMouseInput.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\ItemManager\Scripts\vJoystickMouseInput.cs]
+	[1 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vGameController.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vGameController.cs]
+	[2 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vInput.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vInput.cs]
+	[3 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonInput.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonInput.cs]
+	[4 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vDebugUtils.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vDebugUtils.cs]
+	[5 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts\vSimpleMeleeAI_Companion.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Melee Combat\Simple Melee AI\Scripts\vSimpleMeleeAI_Companion.cs]
+	[6 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Shooter\Scripts\Generic\vControlAimCanvas.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Shooter\Scripts\Generic\vControlAimCanvas.cs]
+	[7 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\InvectorJoystick.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\InvectorJoystick.cs]
+	[8 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\MoveCamera.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\MoveCamera.cs]
+	[9 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\vButtonOnOFF.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Add-ons\Controller_Mobile\Basic\Scripts\vButtonOnOFF.cs]
+	[10 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vMousePositionHandler.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vMousePositionHandler.cs]
+	[11 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\LerpOnScroll.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\LerpOnScroll.cs]
+	[12 / 13] from  [D:/Haris Rasheed/Projects/Invector/CF2-Data/Script-Backups/2024-02-20-14-28\Assets-After/\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\RotateOnDrag.cs] to [D:/Haris Rasheed/Projects/Invector/Assets/\Rukha93\ModularAnimeCharacter\Samples\Customization\Scripts\Utils\RotateOnDrag.cs]
+
+Overwriting COMPLETED!
